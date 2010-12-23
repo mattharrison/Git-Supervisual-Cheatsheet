@@ -23,14 +23,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1709981"
-     inkscape:cx="863.01205"
-     inkscape:cy="647.51016"
+     inkscape:zoom="6.5990444"
+     inkscape:cx="710.06473"
+     inkscape:cy="575.718"
      inkscape:document-units="in"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1176"
+     inkscape:window-width="1918"
+     inkscape:window-height="1174"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="0"
@@ -197,6 +197,18 @@
          d="m 33.75,439.23718 16.875,0 0,22.5 -8.54499,-11.25 0.10749,11.25 -8.4375,0 z"
          style="fill:#000000;fill-opacity:1;stroke:none" />
     </clipPath>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m -287.67686,-435.05792 35.35372,14.14148"
+       id="path4900-2"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#path4880"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,287.36218)"
+       inkscape:connection-start="#path4876"
+       inkscape:connection-start-point="d4"
+       sodipodi:nodetypes="cc" />
   </defs>
   <metadata
      id="metadata7">
@@ -206,7 +218,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -374,7 +386,8 @@
      transform="translate(0,-287.36218)"
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     inkscape:label="Layer 1"
+     style="display:inline">
     <rect
        ry="22.5"
        y="1940.6768"
@@ -398,18 +411,18 @@
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-       x="984.375"
-       y="675.48718"
+       x="984.37494"
+       y="681.11218"
        id="text7497"
        sodipodi:linespacing="125%"><tspan
          id="tspan7499"
          sodipodi:role="line"
-         x="984.375"
-         y="675.48718"
+         x="984.37494"
+         y="681.11218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2e3436;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica">cd project/edit file/commit</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 116.12507,618.45738 27.44635,-19.00397"
+       d="m 117.19623,620.37898 52.59876,-22.84717"
        id="path5440"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -418,8 +431,14 @@
        inkscape:connection-end="#path5423"
        inkscape:connection-end-point="d4" />
     <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5169"
+       d="m 61.875,591.11218 c 45,33.75 45,33.75 45,33.75"
+       style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 29.07149,593.04861 c 28.125,0 129.375,0 129.375,0"
+       d="m 29.07149,593.04861 c 28.125,0 150.75039,0 150.75039,0"
        id="path5427"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -484,50 +503,6 @@
        style="fill:none;stroke:#000000;stroke-width:11.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 646.875,877.98718 c 56.25,0 50.625,0 50.625,0"
        id="path6747"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <g
-       transform="translate(50.625,225)"
-       id="g6296">
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path6298"
-         d="m 349.83567,608.08093 c 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68327,0.78837 9.05603,-0.95299 2.65695,-7.45107 -0.76091,-15.92201 -6.91233,-10.29701 3.4813,-8.45654 -3.54916,-13.16716 -7.7687,-9.84321 0,-8.83205 -12.98258,-6.34223 -12.59576,-1.40679 -9.90424,-5.625 -13.76416,4.37226 -11.6121,9.70855 -7.48967,-1.76853 -0.85763,13.17017 1.70786,12.79145 z"
-         style="fill:#f4f4f5;stroke:#204a87;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         style="fill:#929396;fill-opacity:1;stroke:none"
-         d="m 368.85437,605.84447 c -10.45151,0 -17.29562,-3.47056 -22.54187,-2.29479 1.15487,2.56232 2.76377,4.67684 3.75,4.53125 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68974,0.80386 9.0625,-0.9375 0.56765,-1.59191 0.82934,-3.24365 0.875,-4.78125 -4.80412,-0.48586 -12.94646,3.48229 -19.27063,3.48229 z"
-         id="path6300"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sccccccs" />
-      <path
-         transform="translate(320.625,517.98718)"
-         d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
-         sodipodi:ry="11.25"
-         sodipodi:rx="11.25"
-         sodipodi:cy="78.75"
-         sodipodi:cx="45"
-         id="path6302"
-         style="fill:#a40000;fill-opacity:1;stroke:none"
-         sodipodi:type="arc" />
-      <path
-         style="fill:none;stroke:#204a87;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 349.83567,608.08093 c 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68327,0.78837 9.05603,-0.95299 2.65695,-7.45107 -0.76091,-15.92201 -6.91233,-10.29701 3.4813,-8.45654 -3.54916,-13.16716 -7.7687,-9.84321 0,-8.83205 -12.98258,-6.34223 -12.59576,-1.40679 -9.90424,-5.625 -13.76416,4.37226 -11.6121,9.70855 -7.48967,-1.76853 -0.85763,13.17017 1.70786,12.79145 z"
-         id="path6304"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccc" />
-    </g>
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path6306"
-       d="m 365.625,821.7372 c 56.25,0 95.625,0 95.625,0"
-       style="fill:none;stroke:#000000;stroke-width:11.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:11.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 393.75,849.8622 c 56.25,0 50.625,0 50.625,0"
-       id="path6294"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
@@ -816,7 +791,7 @@
              sodipodi:role="line"
              id="tspan3881"
              x="11.25"
-             y="399.86218">Remote</tspan></text>
+             y="399.86218">Tags</tspan></text>
       </g>
     </g>
     <g
@@ -1226,7 +1201,7 @@
            x="360"
            y="491.73718"
            style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-           id="tspan4366">build</tspan><tspan
+           id="tspan4366">/build</tspan><tspan
            sodipodi:role="line"
            x="360"
            y="499.23718"
@@ -1267,16 +1242,16 @@
        x="393.75"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
        xml:space="preserve"><tspan
+         id="tspan4354"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
          y="450.48718"
          x="393.75"
-         id="tspan4352"
-         sodipodi:role="line">specify patterns to ignore</tspan><tspan
-         id="tspan4354"
+         sodipodi:role="line">specify patterns to ignore in this file (local or global)</tspan><tspan
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
          y="460.48718"
          x="393.75"
-         sodipodi:role="line">in this file (local or global)</tspan></text>
+         sodipodi:role="line"
+         id="tspan5439"> (all .svn directories, but only root build directory)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
@@ -1873,18 +1848,18 @@
     <text
        sodipodi:linespacing="125%"
        id="text5596"
-       y="439.23718"
+       y="433.61218"
        x="984.375"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan5701"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="439.23718"
+         y="433.61218"
          x="984.375"
          sodipodi:role="line">interactively choose</tspan><tspan
          id="tspan7288"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="449.23718"
+         y="443.61218"
          x="984.375"
          sodipodi:role="line">hunks of changes to apply</tspan></text>
     <g
@@ -2262,13 +2237,13 @@
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-       x="201.7365"
-       y="682.05286"
+       x="202.5"
+       y="681.11218"
        id="text6180"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="201.7365"
-         y="682.05286"
+         x="202.5"
+         y="681.11218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
          id="tspan6184">git checkout master</tspan></text>
     <g
@@ -2298,14 +2273,14 @@
     <text
        sodipodi:linespacing="125%"
        id="text6204"
-       y="704.55286"
-       x="201.7365"
+       y="703.61218"
+       x="202.5"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan6206"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="704.55286"
-         x="201.7365"
+         y="703.61218"
+         x="202.5"
          sodipodi:role="line">git merge fixme</tspan></text>
     <text
        transform="translate(0,287.36218)"
@@ -2342,438 +2317,6 @@
            x="184"
            id="tspan6226"
            sodipodi:role="line">5</tspan></text>
-    </g>
-    <path
-       transform="translate(348.75,771.1122)"
-       d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
-       sodipodi:ry="11.25"
-       sodipodi:rx="11.25"
-       sodipodi:cy="78.75"
-       sodipodi:cx="45"
-       id="path6238"
-       style="fill:#a40000;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <g
-       style="display:inline"
-       transform="matrix(0.2161127,0,0,0.23949165,388.125,726.3206)"
-       id="g6240">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="M -52.056173,445.38768 0,492.36218"
-         id="path6242"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="M 0,492.36218 0,481.76131"
-         id="path6244"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path6246"
-         d="m 0,492.36218 -11.149113,0"
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    </g>
-    <g
-       id="g6268"
-       transform="translate(0,225)">
-      <path
-         style="fill:#f4f4f5;stroke:#204a87;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 349.83567,608.08093 c 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68327,0.78837 9.05603,-0.95299 2.65695,-7.45107 -0.76091,-15.92201 -6.91233,-10.29701 3.4813,-8.45654 -3.54916,-13.16716 -7.7687,-9.84321 0,-8.83205 -12.98258,-6.34223 -12.59576,-1.40679 -9.90424,-5.625 -13.76416,4.37226 -11.6121,9.70855 -7.48967,-1.76853 -0.85763,13.17017 1.70786,12.79145 z"
-         id="path6234"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccc" />
-      <path
-         sodipodi:nodetypes="sccccccs"
-         inkscape:connector-curvature="0"
-         id="path6232"
-         d="m 368.85437,605.84447 c -10.45151,0 -17.29562,-3.47056 -22.54187,-2.29479 1.15487,2.56232 2.76377,4.67684 3.75,4.53125 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68974,0.80386 9.0625,-0.9375 0.56765,-1.59191 0.82934,-3.24365 0.875,-4.78125 -4.80412,-0.48586 -12.94646,3.48229 -19.27063,3.48229 z"
-         style="fill:#929396;fill-opacity:1;stroke:none" />
-      <path
-         sodipodi:type="arc"
-         style="fill:#a40000;fill-opacity:1;stroke:none"
-         id="path6236"
-         sodipodi:cx="45"
-         sodipodi:cy="78.75"
-         sodipodi:rx="11.25"
-         sodipodi:ry="11.25"
-         d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
-         transform="translate(320.625,517.98718)" />
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path6266"
-         d="m 349.83567,608.08093 c 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68327,0.78837 9.05603,-0.95299 2.65695,-7.45107 -0.76091,-15.92201 -6.91233,-10.29701 3.4813,-8.45654 -3.54916,-13.16716 -7.7687,-9.84321 0,-8.83205 -12.98258,-6.34223 -12.59576,-1.40679 -9.90424,-5.625 -13.76416,4.37226 -11.6121,9.70855 -7.48967,-1.76853 -0.85763,13.17017 1.70786,12.79145 z"
-         style="fill:none;stroke:#204a87;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
-    <path
-       transform="translate(393.75,771.1122)"
-       d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
-       sodipodi:ry="11.25"
-       sodipodi:rx="11.25"
-       sodipodi:cy="78.75"
-       sodipodi:cx="45"
-       id="path6512"
-       style="fill:#ef2929;fill-opacity:1;stroke:#fce94f;stroke-width:3.5999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:type="arc" />
-    <g
-       id="g6308"
-       transform="matrix(0.2161127,0,0,0.23949165,433.125,726.3206)"
-       style="display:inline">
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path6310"
-         d="M -52.056173,445.38768 0,492.36218"
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path6312"
-         d="M 0,492.36218 0,481.76131"
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 0,492.36218 -11.149113,0"
-         id="path6314"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <g
-       id="g6324"
-       transform="translate(101.25,225)">
-      <path
-         style="fill:#f4f4f5;stroke:#204a87;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 349.83567,608.08093 c 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68327,0.78837 9.05603,-0.95299 2.65695,-7.45107 -0.76091,-15.92201 -6.91233,-10.29701 3.4813,-8.45654 -3.54916,-13.16716 -7.7687,-9.84321 0,-8.83205 -12.98258,-6.34223 -12.59576,-1.40679 -9.90424,-5.625 -13.76416,4.37226 -11.6121,9.70855 -7.48967,-1.76853 -0.85763,13.17017 1.70786,12.79145 z"
-         id="path6326"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccc" />
-      <path
-         sodipodi:nodetypes="sccccccs"
-         inkscape:connector-curvature="0"
-         id="path6328"
-         d="m 368.85437,605.84447 c -10.45151,0 -17.29562,-3.47056 -22.54187,-2.29479 1.15487,2.56232 2.76377,4.67684 3.75,4.53125 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68974,0.80386 9.0625,-0.9375 0.56765,-1.59191 0.82934,-3.24365 0.875,-4.78125 -4.80412,-0.48586 -12.94646,3.48229 -19.27063,3.48229 z"
-         style="fill:#929396;fill-opacity:1;stroke:none" />
-      <path
-         sodipodi:type="arc"
-         style="fill:#a40000;fill-opacity:1;stroke:none"
-         id="path6330"
-         sodipodi:cx="45"
-         sodipodi:cy="78.75"
-         sodipodi:rx="11.25"
-         sodipodi:ry="11.25"
-         d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
-         transform="translate(320.625,517.98718)" />
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path6332"
-         d="m 349.83567,608.08093 c 2.94229,2.55902 7.81137,-0.9063 11.25,0 5.86952,0.33765 11.04652,0.76122 16.875,0 2.8571,-1.33021 6.68327,0.78837 9.05603,-0.95299 2.65695,-7.45107 -0.76091,-15.92201 -6.91233,-10.29701 3.4813,-8.45654 -3.54916,-13.16716 -7.7687,-9.84321 0,-8.83205 -12.98258,-6.34223 -12.59576,-1.40679 -9.90424,-5.625 -13.76416,4.37226 -11.6121,9.70855 -7.48967,-1.76853 -0.85763,13.17017 1.70786,12.79145 z"
-         style="fill:none;stroke:#204a87;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
-    <g
-       style="display:inline"
-       transform="matrix(0.2161127,0,0,-0.23949165,455.625,950.9038)"
-       id="g6316">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="M -52.056173,445.38768 0,492.36218"
-         id="path6318"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="M 0,492.36218 0,481.76131"
-         id="path6320"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path6322"
-         d="m 0,492.36218 -11.149113,0"
-         style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text6334"
-       y="787.98718"
-       x="523.125"
-       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-       xml:space="preserve"><tspan
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         y="787.98718"
-         x="523.125"
-         sodipodi:role="line"
-         id="tspan6336">git clone git://url</tspan></text>
-    <g
-       id="g6338"
-       transform="translate(326.25,275.62501)">
-      <rect
-         style="fill:#4e9a06;fill-opacity:1;stroke:none"
-         id="rect6340"
-         width="11.25"
-         height="11.25"
-         x="180"
-         y="219.375"
-         transform="translate(0,287.36218)" />
-      <text
-         xml:space="preserve"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         x="184"
-         y="514.23718"
-         id="text6342"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan6344"
-           x="184"
-           y="514.23718"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold">1</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-       x="523.125"
-       y="804.86218"
-       id="text6346"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan6348"
-         sodipodi:role="line"
-         x="523.125"
-         y="804.86218"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2e3436;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica">edit file.py</tspan></text>
-    <g
-       transform="translate(326.25,292.5)"
-       id="g6350">
-      <rect
-         transform="translate(0,287.36218)"
-         y="219.375"
-         x="180"
-         height="11.25"
-         width="11.25"
-         id="rect6352"
-         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text6354"
-         y="514.23718"
-         x="184"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
-           y="514.23718"
-           x="184"
-           id="tspan6356"
-           sodipodi:role="line">2</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-       x="523.125"
-       y="821.73718"
-       id="text6358"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan6360"
-         sodipodi:role="line"
-         x="523.125"
-         y="821.73718"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold">git commit -m 'update'</tspan><tspan
-         sodipodi:role="line"
-         x="523.125"
-         y="829.23718"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         id="tspan6362">file.py</tspan></text>
-    <g
-       transform="translate(326.25,309.37501)"
-       id="g6364">
-      <rect
-         transform="translate(0,287.36218)"
-         y="219.375"
-         x="180"
-         height="11.25"
-         width="11.25"
-         id="rect6366"
-         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text6368"
-         y="514.23718"
-         x="184"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
-           y="514.23718"
-           x="184"
-           id="tspan6370"
-           sodipodi:role="line">3</tspan></text>
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text6372"
-       y="838.61218"
-       x="523.125"
-       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-       xml:space="preserve"><tspan
-         id="tspan6374"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         y="838.61218"
-         x="523.125"
-         sodipodi:role="line">git pull origin</tspan></text>
-    <g
-       id="g6376"
-       transform="translate(326.25,326.25)">
-      <rect
-         style="fill:#4e9a06;fill-opacity:1;stroke:none"
-         id="rect6378"
-         width="11.25"
-         height="11.25"
-         x="180"
-         y="219.375"
-         transform="translate(0,287.36218)" />
-      <text
-         xml:space="preserve"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         x="184"
-         y="514.23718"
-         id="text6380"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan6382"
-           x="184"
-           y="514.23718"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold">4</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-       x="523.125"
-       y="855.48718"
-       id="text6384"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="523.125"
-         y="855.48718"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         id="tspan6386">git push</tspan></text>
-    <g
-       transform="translate(326.25,343.125)"
-       id="g6388">
-      <rect
-         transform="translate(0,287.36218)"
-         y="219.375"
-         x="180"
-         height="11.25"
-         width="11.25"
-         id="rect6390"
-         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text6392"
-         y="514.23718"
-         x="184"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
-           y="514.23718"
-           x="184"
-           id="tspan6394"
-           sodipodi:role="line">5</tspan></text>
-    </g>
-    <g
-       transform="translate(185.625,326.25)"
-       id="g6396">
-      <rect
-         transform="translate(0,287.36218)"
-         y="219.375"
-         x="180"
-         height="11.25"
-         width="11.25"
-         id="rect6398"
-         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text6400"
-         y="514.23718"
-         x="184"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
-           y="514.23718"
-           x="184"
-           id="tspan6402"
-           sodipodi:role="line">1</tspan></text>
-    </g>
-    <g
-       id="g6404"
-       transform="translate(173,388.125)">
-      <path
-         style="fill:#5c3566;fill-opacity:1;stroke:none"
-         d="m 158.875,450.48718 28.125,0 c 3.11625,0 5.625,2.38238 5.625,5.625 l 16.875,5.625 -16.875,5.625 c 0,3.30761 -2.50875,5.625 -5.625,5.625 l -28.125,0 c -3.11625,0 -5.625,-2.50875 -5.625,-5.625 l 0,-11.25 c 0,-3.11625 2.50875,-5.625 5.625,-5.625 z"
-         id="path6406"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sscccsssss" />
-      <text
-         xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
-         x="158.875"
-         y="467.36218"
-         id="text6408"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan6410"
-           x="158.875"
-           y="467.36218"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna">edit</tspan></text>
-    </g>
-    <g
-       id="g6412"
-       transform="translate(163.125,348.75)">
-      <rect
-         style="fill:#4e9a06;fill-opacity:1;stroke:none"
-         id="rect6414"
-         width="11.25"
-         height="11.25"
-         x="180"
-         y="219.375"
-         transform="translate(0,287.36218)" />
-      <text
-         xml:space="preserve"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         x="184"
-         y="514.23718"
-         id="text6416"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan6418"
-           x="184"
-           y="514.23718"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold">2</tspan></text>
-    </g>
-    <g
-       id="g6420"
-       transform="translate(196.875,348.75)">
-      <rect
-         style="fill:#4e9a06;fill-opacity:1;stroke:none"
-         id="rect6422"
-         width="11.25"
-         height="11.25"
-         x="180"
-         y="219.375"
-         transform="translate(0,287.36218)" />
-      <text
-         xml:space="preserve"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         x="184"
-         y="514.23718"
-         id="text6424"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan6426"
-           x="184"
-           y="514.23718"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold">3</tspan></text>
     </g>
     <g
        transform="translate(590.56128,517.5)"
@@ -2844,54 +2387,6 @@
            y="382.98718"
            x="573.75"
            sodipodi:role="line">fetch and merge other repo</tspan></text>
-    </g>
-    <g
-       transform="translate(241.875,348.75)"
-       id="g6465">
-      <rect
-         transform="translate(0,287.36218)"
-         y="219.375"
-         x="180"
-         height="11.25"
-         width="11.25"
-         id="rect6467"
-         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text6469"
-         y="514.23718"
-         x="184"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
-           y="514.23718"
-           x="184"
-           id="tspan6471"
-           sodipodi:role="line">4</tspan></text>
-    </g>
-    <g
-       id="g6473"
-       transform="translate(292.5,320.625)">
-      <rect
-         style="fill:#4e9a06;fill-opacity:1;stroke:none"
-         id="rect6475"
-         width="11.25"
-         height="11.25"
-         x="180"
-         y="219.375"
-         transform="translate(0,287.36218)" />
-      <text
-         xml:space="preserve"
-         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         x="184"
-         y="514.23718"
-         id="text6477"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan6479"
-           x="184"
-           y="514.23718"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold">5</tspan></text>
     </g>
     <g
        transform="translate(590.49756,601.875)"
@@ -3001,40 +2496,6 @@
          y="570.93414"
          x="252.73605"
          sodipodi:role="line">fix_branch</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text6547"
-       y="849.86218"
-       x="399.375"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-       xml:space="preserve"><tspan
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f4f4f5;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="849.86218"
-         x="399.375"
-         id="tspan6549"
-         sodipodi:role="line">master</tspan><tspan
-         id="tspan6551"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f4f4f5;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="859.86218"
-         x="399.375"
-         sodipodi:role="line" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-       x="388.125"
-       y="821.73718"
-       id="text6553"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6555"
-         x="388.125"
-         y="821.73718"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f4f4f5;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica">origin</tspan><tspan
-         sodipodi:role="line"
-         x="388.125"
-         y="831.73718"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f4f4f5;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         id="tspan6557" /></text>
     <g
        id="g6559"
        transform="translate(332.13509,281.15625)">
@@ -3415,12 +2876,12 @@
     <text
        sodipodi:linespacing="125%"
        id="text6885"
-       y="427.98718"
+       y="422.36218"
        x="680.625"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        xml:space="preserve"><tspan
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="427.98718"
+         y="422.36218"
          x="680.625"
          sodipodi:role="line"
          id="tspan6887">git init my_repo</tspan></text>
@@ -3428,65 +2889,65 @@
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        x="680.625"
-       y="472.98718"
+       y="489.86218"
        id="text6905"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="680.625"
-         y="472.98718"
+         y="489.86218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
          id="tspan6907">git commit -m 'commit msg'</tspan><tspan
          sodipodi:role="line"
          x="680.625"
-         y="482.98718"
+         y="499.86218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
          id="tspan7423"> file.py</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        x="680.625"
-       y="450.48718"
+       y="444.86218"
        id="text6929"
        sodipodi:linespacing="125%"><tspan
          id="tspan6931"
          sodipodi:role="line"
          x="680.625"
-         y="450.48718"
+         y="444.86218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold">git add file.py</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        x="838.125"
-       y="427.98718"
+       y="422.36218"
        id="text6957"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="838.125"
-         y="427.98718"
+         y="422.36218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
          id="tspan6959">git stash save file.py</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text6977"
-       y="450.48718"
+       y="444.86218"
        x="838.125"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan6979"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="450.48718"
+         y="444.86218"
          x="838.125"
          sodipodi:role="line">git stash pop</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7017"
-       y="427.98718"
+       y="422.36218"
        x="978.75"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan7019"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="427.98718"
+         y="422.36218"
          x="978.75"
          sodipodi:role="line">git add -p file.py</tspan></text>
     <text
@@ -3637,24 +3098,24 @@
        xml:space="preserve"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        x="1125"
-       y="427.98718"
+       y="422.36218"
        id="text7169"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1125"
-         y="427.98718"
+         y="422.36218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
          id="tspan7171">git commit -m 'msg' -a </tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
        x="1130.625"
-       y="439.23718"
+       y="433.61218"
        id="text7201"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1130.625"
-         y="439.23718"
+         y="433.61218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
          id="tspan7203">commit changes of known files</tspan></text>
     <path
@@ -3737,35 +3198,35 @@
     <text
        sodipodi:linespacing="125%"
        id="text7229"
-       y="484.23718"
+       y="478.61218"
        x="1125"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        xml:space="preserve"><tspan
          id="tspan7231"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="484.23718"
+         y="478.61218"
          x="1125"
          sodipodi:role="line">git checkout file.py </tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7241"
-       y="495.48718"
+       y="489.86218"
        x="1130.625"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan7243"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="495.48718"
+         y="489.86218"
          x="1130.625"
          sodipodi:role="line">revert dirty changes</tspan><tspan
          id="tspan10007"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="505.48718"
+         y="499.86218"
          x="1130.625"
          sodipodi:role="line">use &quot;--&quot; if file and branch</tspan><tspan
          id="tspan10009"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="515.48718"
+         y="509.86218"
          x="1130.625"
          sodipodi:role="line">name conflict</tspan></text>
     <g
@@ -3807,14 +3268,14 @@
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        x="978.75"
-       y="461.73718"
+       y="456.11218"
        id="text7310"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="978.75"
-         y="461.73718"
+         y="456.11218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         id="tspan7312">git diff --cached</tspan></text>
+         id="tspan7312">git diff --staged</tspan></text>
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
@@ -3839,13 +3300,13 @@
     <text
        sodipodi:linespacing="125%"
        id="text7342"
-       y="461.73718"
+       y="456.11218"
        x="1125"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        xml:space="preserve"><tspan
          id="tspan7344"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="461.73718"
+         y="456.11218"
          x="1125"
          sodipodi:role="line">git diff HEAD^ HEAD</tspan></text>
     <path
@@ -4001,37 +3462,37 @@
     <text
        sodipodi:linespacing="125%"
        id="text9175"
-       y="484.23718"
+       y="478.61218"
        x="978.75"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        xml:space="preserve"><tspan
          id="tspan9177"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="484.23718"
+         y="478.61218"
          x="978.75"
          sodipodi:role="line">git diff HEAD</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text10017"
-       y="495.48718"
+       y="512.36218"
        x="680.625"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        xml:space="preserve"><tspan
          id="tspan10019"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="495.48718"
+         y="512.36218"
          x="680.625"
          sodipodi:role="line">git status</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text10029"
-       y="506.73718"
+       y="523.61218"
        x="686.25"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan10033"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="506.73718"
+         y="523.61218"
          x="686.25"
          sodipodi:role="line">run before commit to see changes</tspan></text>
     <g
@@ -4066,12 +3527,12 @@
        xml:space="preserve"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
        x="978.75"
-       y="506.73718"
+       y="501.11218"
        id="text10049"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="978.75"
-         y="506.73718"
+         y="501.11218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
          id="tspan10051">git diff </tspan></text>
     <path
@@ -4287,7 +3748,7 @@
            y="236.82259" /></flowRegion><flowPara
          id="flowPara4086" /></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m -219.375,-151.875 39.375,0"
+       d="m -219.76869,-165.78919 40.16238,10.95338"
        id="path4896"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -4299,7 +3760,7 @@
        inkscape:connection-end-point="d4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m -292.5,-168.75 51.01869,13.91419"
+       d="M -287.20832,-154.60417 -241.875,-165.9375"
        id="path4892"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -4311,7 +3772,7 @@
        inkscape:connection-end-point="d4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m -292.5,-168.75 32.923,47.03285"
+       d="m -287.67686,-147.69574 35.35372,14.14148"
        id="path4900"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -4323,7 +3784,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="M -331.875,-151.875 -292.5,-168.75"
+       d="m -331.875,-151.875 22.5,0"
        id="path4967"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -4343,7 +3804,7 @@
        sodipodi:type="arc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m -242.92801,-117.25859 63.98102,-29.85782"
+       d="m -231.11963,-132.68435 51.61426,-15.8813"
        id="path4902"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -4353,7 +3814,7 @@
        inkscape:connection-end-point="d4"
        transform="translate(0,287.36218)" />
     <path
-       transform="translate(-298.125,96.11218)"
+       transform="translate(-286.875,79.23718)"
        d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
        sodipodi:ry="11.25"
        sodipodi:rx="11.25"
@@ -4395,7 +3856,7 @@
    id="tspan4954">bugfix</tspan></textPath></text>
     <path
        style="fill:#204a87;fill-opacity:1;stroke:none"
-       d="m -219.375,135.48718 c 0,6.2132 -5.0368,11.25 -11.25,11.25 -3.1066,0 -5.625,0 -11.25,0 0,-5.625 0,-8.1434 0,-11.25 0,-6.2132 5.0368,-11.25 11.25,-11.25 6.2132,0 11.25,5.0368 11.25,11.25 z"
+       d="m -219.375,118.61218 c 0,6.2132 -5.0368,11.25 -11.25,11.25 -3.1066,0 -5.625,0 -11.25,0 0,-5.625 0,-8.1434 0,-11.25 0,-6.2132 5.0368,-11.25 11.25,-11.25 6.2132,0 11.25,5.0368 11.25,11.25 z"
        id="path4959"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sscsss" />
@@ -4837,7 +4298,7 @@
     </g>
     <g
        id="g5026"
-       transform="translate(842.19916,282.19067)">
+       transform="translate(842.19916,304.69067)">
       <rect
          style="fill:#4e9a06;fill-opacity:1;stroke:none"
          id="rect5028"
@@ -5251,7 +4712,7 @@
     </g>
     <g
        id="g5247"
-       transform="translate(842.19916,304.69067)">
+       transform="translate(842.19916,327.19067)">
       <rect
          style="fill:#4e9a06;fill-opacity:1;stroke:none"
          id="rect5249"
@@ -5404,10 +4865,10 @@
            y="191.73718"
            x="-179.21266"
            id="tspan5364"
-           sodipodi:role="line">4</tspan></text>
+           sodipodi:role="line">5</tspan></text>
     </g>
     <g
-       transform="translate(363.31066,519.38134)"
+       transform="translate(364.07416,518.44067)"
        id="g5366">
       <rect
          y="179.54651"
@@ -5427,7 +4888,7 @@
            y="191.73718"
            x="-179.21266"
            id="tspan5372"
-           sodipodi:role="line">5</tspan></text>
+           sodipodi:role="line">6</tspan></text>
     </g>
     <path
        sodipodi:nodetypes="cccc"
@@ -5437,7 +4898,7 @@
        style="fill:none;stroke:#ffffff;stroke-width:4.7878046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 71.942577,599.63547 25.811336,18.63985"
+       d="m 0,287.36218 0,0"
        id="path5438"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -5464,7 +4925,7 @@
        sodipodi:rx="11.25"
        sodipodi:ry="11.25"
        d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
-       transform="translate(107.82149,514.29861)" />
+       transform="translate(135.11622,514.29861)" />
     <path
        transform="translate(61.875,546.11218)"
        d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
@@ -5523,7 +4984,7 @@
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
    id="tspan5444">fixme</tspan></textPath></text>
     <g
-       transform="translate(373.634,452.96585)"
+       transform="translate(376.875,450)"
        id="g5465">
       <rect
          style="fill:#4e9a06;fill-opacity:1;stroke:none"
@@ -5592,30 +5053,7 @@
            style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">3</tspan></text>
     </g>
     <g
-       id="g5489"
-       transform="translate(424.259,441.71585)">
-      <rect
-         y="152.36218"
-         x="-309.375"
-         height="11.249997"
-         width="11.25"
-         id="rect5491"
-         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text5493"
-         y="160.64633"
-         x="-306.134"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-         xml:space="preserve"><tspan
-           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
-           y="160.64633"
-           x="-306.134"
-           id="tspan5495"
-           sodipodi:role="line">4</tspan></text>
-    </g>
-    <g
-       transform="translate(450,444.375)"
+       transform="translate(489.375,444.375)"
        id="g5497">
       <rect
          style="fill:#4e9a06;fill-opacity:1;stroke:none"
@@ -5635,7 +5073,7 @@
            id="tspan5503"
            x="-306.134"
            y="160.64633"
-           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">5</tspan></text>
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">6</tspan></text>
     </g>
     <path
        sodipodi:nodetypes="cc"
@@ -6717,13 +6155,13 @@
     <text
        sodipodi:linespacing="125%"
        id="text7301"
-       y="659.55286"
-       x="55.486492"
+       y="658.61218"
+       x="56.25"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        xml:space="preserve"><tspan
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="659.55286"
-         x="55.486492"
+         y="658.61218"
+         x="56.25"
          sodipodi:role="line"
          id="tspan7303">git checkout -b fixme</tspan></text>
     <rect
@@ -7021,7 +6459,7 @@
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold">git clone git://URL</tspan></text>
     <g
        id="g7501"
-       transform="translate(1145.9492,490.31567)">
+       transform="translate(1145.9492,495.94067)">
       <rect
          style="fill:#4e9a06;fill-opacity:1;stroke:none"
          id="rect7503"
@@ -7169,18 +6607,18 @@
     <text
        sodipodi:linespacing="125%"
        id="text7559"
-       y="697.98718"
-       x="984.375"
+       y="703.61218"
+       x="984.37494"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
        xml:space="preserve"><tspan
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-         y="697.98718"
-         x="984.375"
+         y="703.61218"
+         x="984.37494"
          sodipodi:role="line"
-         id="tspan7561">git push</tspan></text>
+         id="tspan7561">git push [remote] [branch]</tspan></text>
     <g
        id="g7563"
-       transform="translate(1145.9492,512.81567)">
+       transform="translate(1145.9492,518.44067)">
       <rect
          style="fill:#4e9a06;fill-opacity:1;stroke:none"
          id="rect7565"
@@ -7260,17 +6698,17 @@
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
-       x="984.375"
-       y="720.48718"
+       x="984.37494"
+       y="726.11218"
        id="text7589"
        sodipodi:linespacing="125%"><tspan
          id="tspan7591"
          sodipodi:role="line"
-         x="984.375"
-         y="720.48718"
+         x="984.37494"
+         y="726.11218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold">git pull</tspan></text>
     <g
-       transform="translate(1145.9492,535.31567)"
+       transform="translate(1145.9492,540.94067)"
        id="g7593">
       <rect
          y="179.54651"
@@ -7295,14 +6733,14 @@
     <text
        sodipodi:linespacing="125%"
        id="text7601"
-       y="709.23718"
-       x="990"
+       y="714.86218"
+       x="989.99994"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
        xml:space="preserve"><tspan
          id="tspan7605"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         y="709.23718"
-         x="990"
+         y="714.86218"
+         x="989.99994"
          sodipodi:role="line">if public</tspan></text>
     <g
        id="g7609"
@@ -7330,15 +6768,15 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
-       x="990"
-       y="731.73718"
+       x="989.99994"
+       y="737.36218"
        id="text7617"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="990"
-         y="731.73718"
+         x="989.99994"
+         y="737.36218"
          style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
-         id="tspan7619">or fetch/merge</tspan></text>
+         id="tspan7619">if remote tracking.  fetch + merge </tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
@@ -7663,7 +7101,7 @@
        inkscape:connector-curvature="0"
        inkscape:connector-type="polyline"
        id="path7740"
-       d="m 121.75007,2147.4889 27.44635,-19.004"
+       d="m 121.75007,2434.8511 27.44635,-19.004"
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        sodipodi:nodetypes="cc"
@@ -10734,7 +10172,7 @@
        inkscape:connector-curvature="0"
        inkscape:connector-type="polyline"
        id="path9161"
-       d="m 77.567577,2128.667 25.811333,18.6398"
+       d="m 77.567577,2416.0292 25.811333,18.6398"
        style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        transform="translate(45.94649,1458.7752)"
@@ -11493,7 +10931,7 @@
            sodipodi:cy="78.75"
            sodipodi:rx="11.25"
            sodipodi:ry="11.25"
-           d="M 56.25,78.75 C 56.25,84.963203 51.213203,90 45,90 38.786797,90 33.75,84.963203 33.75,78.75 33.75,72.536797 38.786797,67.5 45,67.5 c 6.213203,0 11.25,5.036797 11.25,11.25 z"
+           d="m 56.25,78.75 a 11.25,11.25 0 1 1 -22.5,0 11.25,11.25 0 1 1 22.5,0 z"
            transform="matrix(0.74483741,0,0,0.75,-203.89022,363.29968)" />
       </g>
     </g>
@@ -12824,6 +12262,750 @@
          id="tspan9918"
          x="261.08014"
          y="1048.3676" /></text>
+    <text
+       transform="translate(50.328191,13.647046)"
+       sodipodi:linespacing="125%"
+       id="text5173"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+       xml:space="preserve"
+       x="79.39968"
+       y="313.46145">fixme</text>
+    <text
+       transform="translate(56.284163,15.303761)"
+       sodipodi:linespacing="125%"
+       id="text5179"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+       xml:space="preserve"
+       x="85.355652"
+       y="315.51016"><tspan
+   id="tspan5183">master</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -281.25,439.23718 c 45,33.75 45,33.75 45,33.75"
+       id="path5186"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f4f4f5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+       x="-281.25"
+       y="456.11218"
+       id="text5188"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5190"
+         x="-281.25"
+         y="456.11218"
+         style="font-size:8px">fixme</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5216"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f4f4f5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+       xml:space="preserve"
+       inkscape:transform-center-x="113.49809"
+       inkscape:transform-center-y="-3.012"
+       transform="translate(17.344075,15.867983)"><textPath
+         xlink:href="#path5169"
+         id="textPath5220"><tspan
+   id="tspan5218"
+   style="font-size:8px">fixme</tspan></textPath></text>
+    <g
+       id="g5224"
+       transform="translate(364.07416,473.44067)">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5226"
+         width="16.875"
+         height="16.875002"
+         x="-184.07416"
+         y="179.54651" />
+      <text
+         xml:space="preserve"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-179.21266"
+         y="191.73718"
+         id="text5228"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5230"
+           x="-179.21266"
+           y="191.73718"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">4</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5232"
+       y="658.61218"
+       x="202.5"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5234"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         y="658.61218"
+         x="202.5"
+         sodipodi:role="line">git diff fixme</tspan><tspan
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         y="668.61218"
+         x="202.5"
+         sodipodi:role="line"
+         id="tspan5236"> master -- file.py</tspan></text>
+    <g
+       id="g5246"
+       transform="translate(466.875,427.5)">
+      <rect
+         y="152.36218"
+         x="-309.375"
+         height="11.249997"
+         width="11.25"
+         id="rect5248"
+         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5250"
+         y="160.64633"
+         x="-306.134"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         xml:space="preserve"><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+           y="160.64633"
+           x="-306.134"
+           id="tspan5252"
+           sodipodi:role="line">5</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5254"
+       d="m 112.5,592.61218 c 5.625,5.625 5.625,5.625 5.625,5.625 l 0,15.375 -5.625,5.625"
+       style="fill:none;stroke:#5c3566;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       transform="translate(-78.75,95.625)"
+       id="g5256">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5258"
+         d="m 202.5,484.23718 c 11.25,22.5 0,0 11.25,22.5 l -22.5,0 z"
+         style="fill:#f4f4f5;stroke:#2f292b;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5260"
+         d="m 202.5,484.23718 -1.6875,3.375 9.5625,19.125 3.375,0 -11.25,-22.5 z"
+         style="fill:#2f292b;fill-opacity:1;stroke:#2f292b;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="translate(429.884,430.46585)"
+       id="g5238">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5240"
+         width="11.25"
+         height="11.249997"
+         x="-309.375"
+         y="152.36218" />
+      <text
+         xml:space="preserve"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-306.134"
+         y="160.64633"
+         id="text5242"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5244"
+           x="-306.134"
+           y="160.64633"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">4</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="984.375"
+       y="512.36218"
+       id="text5271"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="984.375"
+         y="512.36218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5273">show unstaged diffs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="838.125"
+       y="484.23718"
+       id="text5275"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="838.125"
+         y="484.23718"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         id="tspan5277">git rm --cached foo.py</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5279"
+       y="495.48718"
+       x="843.75"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5281"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="495.48718"
+         x="843.75"
+         sodipodi:role="line">don't track foo.py (but leave copy)</tspan></text>
+    <g
+       id="g5283"
+       transform="translate(646.875,517.5)">
+      <g
+         id="g5285"
+         transform="translate(326.25,-67.500003)">
+        <rect
+           ry="14.489079"
+           transform="translate(0,287.36218)"
+           y="90"
+           x="0"
+           height="33.75"
+           width="135"
+           id="rect5288"
+           style="fill:#4e9a06;fill-opacity:1;stroke:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5290"
+           y="399.86218"
+           x="11.25"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:MgOpen Cosmetica;-inkscape-font-specification:MgOpen Cosmetica Bold"
+           xml:space="preserve"><tspan
+             y="399.86218"
+             x="11.25"
+             id="tspan5292"
+             sodipodi:role="line">Git log</tspan></text>
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5294"
+       y="467.36218"
+       x="680.625"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         y="467.36218"
+         x="680.625"
+         sodipodi:role="line"
+         id="tspan5296">git reset HEAD file.py</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="686.25"
+       y="478.61218"
+       id="text5298"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="686.25"
+         y="478.61218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5300">unstage file.py</tspan></text>
+    <g
+       transform="translate(988.44916,540.94067)"
+       id="g5302">
+      <rect
+         y="179.54651"
+         x="-184.07416"
+         height="16.875002"
+         width="16.875"
+         id="rect5304"
+         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5306"
+         y="191.73718"
+         x="-179.21266"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         xml:space="preserve"><tspan
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+           y="191.73718"
+           x="-179.21266"
+           id="tspan5308"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="826.875"
+       y="726.11218"
+       id="text5310"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5312"
+         sodipodi:role="line"
+         x="826.875"
+         y="726.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold">git remote -v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="832.5"
+       y="737.36218"
+       id="text5314"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="832.5"
+         y="737.36218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5316">list remotes</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5318"
+       y="664.23718"
+       x="990"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+       xml:space="preserve"><tspan
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2e3436;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="664.23718"
+         x="990"
+         sodipodi:role="line"
+         id="tspan5320">adds remote for &quot;origin&quot;,</tspan><tspan
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2e3436;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="664.23718"
+         x="990"
+         sodipodi:role="line"
+         id="tspan5338"> branch is origin/master</tspan></text>
+    <g
+       id="g5322"
+       transform="translate(1292.1992,467.81567)">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5324"
+         width="16.875"
+         height="16.875002"
+         x="-184.07416"
+         y="179.54651" />
+      <text
+         xml:space="preserve"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-179.21266"
+         y="191.73718"
+         id="text5326"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5328"
+           x="-179.21266"
+           y="191.73718"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">5</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5330"
+       y="652.98718"
+       x="1130.625"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         y="652.98718"
+         x="1130.625"
+         sodipodi:role="line"
+         id="tspan5332">git remote show origin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+       x="1136.25"
+       y="664.23718"
+       id="text5334"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5336"
+         sodipodi:role="line"
+         x="1136.25"
+         y="664.23718"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2e3436;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica">list origin details</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="365.625"
+       y="816.11218"
+       id="text5340"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="365.625"
+         y="816.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         id="tspan5342">git tag</tspan></text>
+    <g
+       id="g5344"
+       transform="translate(527.19916,630.94067)">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5346"
+         width="16.875"
+         height="16.875002"
+         x="-184.07416"
+         y="179.54651" />
+      <text
+         xml:space="preserve"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-179.21266"
+         y="191.73718"
+         id="text5348"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5350"
+           x="-179.21266"
+           y="191.73718"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">1</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="371.25"
+       y="827.36218"
+       id="text5352"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="371.25"
+         y="827.36218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5354">show tags</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="461.25"
+       y="816.11218"
+       id="text5356"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="461.25"
+         y="816.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5358">There are 2 types of tags:</tspan><tspan
+         sodipodi:role="line"
+         x="461.25"
+         y="826.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5360">  - Lightweight - just point to a commit</tspan><tspan
+         sodipodi:role="line"
+         x="461.25"
+         y="836.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5362">  - Annotated - have tagger name, xsum, etc</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5364"
+       y="838.61218"
+       x="365.625"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5366"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         y="838.61218"
+         x="365.625"
+         sodipodi:role="line">git tag v1.2-lite</tspan></text>
+    <g
+       transform="translate(527.19916,653.44067)"
+       id="g5368">
+      <rect
+         y="179.54651"
+         x="-184.07416"
+         height="16.875002"
+         width="16.875"
+         id="rect5370"
+         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5372"
+         y="191.73718"
+         x="-179.21266"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         xml:space="preserve"><tspan
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+           y="191.73718"
+           x="-179.21266"
+           id="tspan5374"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5376"
+       y="849.86218"
+       x="371.25"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5378"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="849.86218"
+         x="371.25"
+         sodipodi:role="line">create lightweight tag</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="365.625"
+       y="861.11218"
+       id="text5380"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="365.625"
+         y="861.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         id="tspan5382">git tag -a v1.2 -m 'msg'</tspan></text>
+    <g
+       id="g5384"
+       transform="translate(527.19916,675.94067)">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5386"
+         width="16.875"
+         height="16.875002"
+         x="-184.07416"
+         y="179.54651" />
+      <text
+         xml:space="preserve"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-179.21266"
+         y="191.73718"
+         id="text5388"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5390"
+           x="-179.21266"
+           y="191.73718"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">2</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="371.25"
+       y="872.36218"
+       id="text5392"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="371.25"
+         y="872.36218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5394">create annotated tag</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5396"
+       style="fill:none;stroke:black;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;font-size:12;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Last Words Bold;font-family:Last Words;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion5398"><rect
+           id="rect5400"
+           width="169.68468"
+           height="30.032686"
+           x="340.37045"
+           y="565.28265" /></flowRegion><flowPara
+         id="flowPara5402"></flowPara></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text5404"
+       y="883.61218"
+       x="365.625"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5406"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         y="883.61218"
+         x="365.625"
+         sodipodi:role="line">git tag -a v1.2 -m REV</tspan></text>
+    <g
+       transform="translate(527.19916,698.44067)"
+       id="g5408">
+      <rect
+         y="179.54651"
+         x="-184.07416"
+         height="16.875002"
+         width="16.875"
+         id="rect5410"
+         style="fill:#4e9a06;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5412"
+         y="191.73718"
+         x="-179.21266"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         xml:space="preserve"><tspan
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+           y="191.73718"
+           x="-179.21266"
+           id="tspan5414"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5416"
+       y="894.86218"
+       x="371.25"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5418"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="894.86218"
+         x="371.25"
+         sodipodi:role="line">create tag at revision</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="365.625"
+       y="906.11218"
+       id="text5420"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="365.625"
+         y="906.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         id="tspan5422">git push origin v1.2</tspan></text>
+    <g
+       id="g5425"
+       transform="translate(527.19916,720.94067)">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5427"
+         width="16.875"
+         height="16.875002"
+         x="-184.07416"
+         y="179.54651" />
+      <text
+         xml:space="preserve"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-179.21266"
+         y="191.73718"
+         id="text5429"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5431"
+           x="-179.21266"
+           y="191.73718"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">3</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="371.25"
+       y="917.36218"
+       id="text5433"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="371.25"
+         y="917.36218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5435">push tag to remote</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="202.5"
+       y="726.11218"
+       id="text5441"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="202.5"
+         y="726.11218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#2e3436;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         id="tspan5443">git branch -d fixme</tspan></text>
+    <g
+       id="g5445"
+       transform="translate(364.07416,540.94067)">
+      <rect
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         id="rect5447"
+         width="16.875"
+         height="16.875002"
+         x="-184.07416"
+         y="179.54651" />
+      <text
+         xml:space="preserve"
+         style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+         x="-179.21266"
+         y="191.73718"
+         id="text5449"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5451"
+           x="-179.21266"
+           y="191.73718"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold">7</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5453"
+       y="737.36218"
+       x="208.125"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5455"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="737.36218"
+         x="208.125"
+         sodipodi:role="line">delete branch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="208.125"
+       y="714.86218"
+       id="text5457"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="208.125"
+         y="714.86218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5459">don't merge with uncommitted changes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="364.86151"
+       y="727.05286"
+       id="text5461"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="364.86151"
+         y="727.05286"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+         id="tspan5463">git mergetool</tspan></text>
+    <rect
+       y="720.48718"
+       x="343.125"
+       height="16.875002"
+       width="16.875"
+       id="rect5465"
+       style="fill:#f57900;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5467"
+       y="732.67786"
+       x="347.98651"
+       style="font-size:6px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f5;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:MgOpen Moderna;-inkscape-font-specification:MgOpen Moderna Bold"
+         y="732.67786"
+         x="347.98651"
+         id="tspan5469"
+         sodipodi:role="line">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       x="371.25"
+       y="737.36218"
+       id="text5471"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="371.25"
+         y="737.36218"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         id="tspan5473">use gui tool to merge</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Last Words;-inkscape-font-specification:Last Words Bold"
+       x="434.60583"
+       y="425.76221"
+       id="text5475"
+       sodipodi:linespacing="125%"
+       transform="translate(0,287.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan5477"></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5479"
+       y="456.11218"
+       x="686.25"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0;word-spacing:0;writing-mode:lr-tb;text-anchor:start;fill:#2f292b;fill-opacity:1;stroke:none;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono Bold"
+       xml:space="preserve"><tspan
+         id="tspan5481"
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#2f292b;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica"
+         y="456.11218"
+         x="686.25"
+         sodipodi:role="line">stage file.py</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
