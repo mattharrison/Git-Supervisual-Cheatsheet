@@ -32,7 +32,9 @@ def branch_section():
     elems.append(translate(revision(), x+125, y))
 
     # small numbers
-    elems.append(translate(num('1', GREEN_3), x+30, y+25))
+    elems.append(translate(num('1', GREEN_3), x+15, y+10))
+    elems.append(translate(num('2', GREEN_3), x+35, y+30))
+    elems.append(translate(num('3', GREEN_3), x+50, y+45))
 
     # large numbers
     elems.append(translate(command('1', 
@@ -40,6 +42,16 @@ def branch_section():
                                    'use -t to set up remote tracking',
                                    GREEN_3),
                            x, y+70))
+    elems.append(translate(command('2', 
+                                   '',
+                                   'edit file',
+                                   GREEN_3),
+                           x, y+110))
+    elems.append(translate(command('3', 
+                                   'git commit -m \'fix bug\'\nfile.py',
+                                   '',
+                                   GREEN_3),
+                           x, y+150))
 
     return elems
     
