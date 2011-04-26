@@ -3,7 +3,7 @@ import math
 from pysvg.structure import svg, g
 from pysvg.shape import circle, line, rect
 from pysvg.text import text
-from pysvg.builders import StyleBuilder, TransformBuilder
+from pysvg.builders import ShapeBuilder, StyleBuilder, TransformBuilder
 
 # lowest num is lighter
 GREEN_1 = '#8ae234'
@@ -12,6 +12,8 @@ GREEN_3 = '#4e9a06'
 
 RED_3 = '#a40000'
 
+ORANGE_3 = '#ce5c00'
+BLACK = '#000000'
 ALUM_1 = '#eeeeec'
 ALUM_6 = '#2e3436'
 
@@ -38,7 +40,7 @@ def branch_section():
 
     # large numbers
     elems.append(translate(command('1', 
-                                   'git checkout -b fixme',
+                                   'git checkout -t fixme',
                                    'use -t to set up remote tracking',
                                    GREEN_3),
                            x, y+70))
@@ -48,13 +50,40 @@ def branch_section():
                                    GREEN_3),
                            x, y+110))
     elems.append(translate(command('3', 
-                                   'git commit -m \'fix bug\'\nfile.py',
+                                   'git commit -m \'fix bug\' file.py',
                                    '',
                                    GREEN_3),
                            x, y+150))
+    elems.append(translate(command('4',
+                                   'git diff fixme master -- file.py',
+                                   '',
+                                   GREEN_3),
+                           x, y+190))
 
     return elems
     
+
+def diff(spikes=9, radius=10):
+    points = []
+    sb = ShapeBuilder()
+    
+    for i, angle in enumerate(xrange(0, 360+1, float(180)/spikes)):
+        if i % 2 == 0:
+            r = radius * .8
+        else:
+            r = radius
+        radians = angle * math.pi/180
+        coord = '{0},{1}'.format(r*math.cos(radians),
+                                 r*math.sin(radians))
+        print "ANGLE", angle, "COOR", coord, "RAD", radians
+        points.append(coord)
+    print "POINTS", points
+    line = sb.createPolyline(points=' '.join(points))
+    fill = BLACK
+    stroke = ORANGE_3
+    style = 'fill:{0};stroke-width:{1};stroke:{2}'.format(fill, 2, stroke)
+    line.set_style(style)
+    return [line]
 
 def revision():
     c = circle(0, 0, 10)
@@ -219,9 +248,10 @@ def test2():
 
 def test():
     fout = svg()
+    fout.addElement(translate(diff(), 120, 60))
     for elem in branch_section():
         fout.addElement(elem)
-        fout.save('/tmp/git.svg')
+    fout.save('/tmp/git.svg')
     
 
 
