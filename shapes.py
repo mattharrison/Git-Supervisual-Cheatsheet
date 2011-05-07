@@ -1,22 +1,30 @@
 import math
 
-from pysvg.structure import svg, g
-from pysvg.shape import circle, line, rect
+from pysvg.core import BaseElement
+from pysvg.structure import defs, svg, g
+from pysvg.shape import circle, line, path, rect
 from pysvg.text import text
 from pysvg.builders import ShapeBuilder, StyleBuilder, TransformBuilder
 
+
+INKSCAPE_HACK = True # apparently markers tweak backwards in inkscape
+
 # lowest num is lighter
+ALPHA = 'none'
 GREEN_1 = '#8ae234'
 GREEN_2 = '#73d216'
 GREEN_3 = '#4e9a06'
 
 RED_3 = '#a40000'
 
+PUR_3 = '#5c3566'
+
 ORANGE_3 = '#ce5c00'
 BLACK = '#000000'
 ALUM_1 = '#eeeeec'
 ALUM_6 = '#2e3436'
 
+HALF = '88'
 
 def branch_section():
     x = 0
@@ -33,23 +41,32 @@ def branch_section():
     elems.append(translate(revision(), x+75, y+50))
     elems.append(translate(revision(), x+125, y))
 
+    elems.extend(between(x+75, 0, x+75, 50))
+    #cap_elems = triangle(-1,1, 0,3, 1,1, RED_3+HALF)
+    if INKSCAPE_HACK:
+        cap_elems = triangle(0,1, -2,0, 0,-1, RED_3)
+    else:
+        cap_elems = triangle(0,1, 2,0, 0,-1, RED_3)
+    elems.append(cap_def('RED_3END', cap_elems))
+    elems.extend(arc_curve(x+100, 0, x+100, 70, cap_def='RED_3END'))
+
     # small numbers
     elems.append(translate(num('1', GREEN_3), x+15, y+10))
     elems.append(translate(num('2', GREEN_3), x+35, y+30))
     elems.append(translate(num('3', GREEN_3), x+50, y+45))
 
     # large numbers
-    elems.append(translate(command('1', 
+    elems.append(translate(command('1',
                                    'git checkout -t fixme',
                                    'use -t to set up remote tracking',
                                    GREEN_3),
                            x, y+70))
-    elems.append(translate(command('2', 
+    elems.append(translate(command('2',
                                    '',
                                    'edit file',
                                    GREEN_3),
                            x, y+110))
-    elems.append(translate(command('3', 
+    elems.append(translate(command('3',
                                    'git commit -m \'fix bug\' file.py',
                                    '',
                                    GREEN_3),
@@ -61,12 +78,12 @@ def branch_section():
                            x, y+190))
 
     return elems
-    
+
 
 def diff(spikes=9, radius=10):
     points = []
     sb = ShapeBuilder()
-    
+
     for i, angle in enumerate(xrange(0, 360+1, float(180)/spikes)):
         if i % 2 == 0:
             r = radius * .8
@@ -85,6 +102,79 @@ def diff(spikes=9, radius=10):
     line.set_style(style)
     return [line]
 
+
+def between(x,y, x2,y2, outie=10, angle=45,
+            color=PUR_3, width=4):
+    """outie direction is billowing if it were traveling counterclockwise"""
+    points = []
+    sb = ShapeBuilder()
+    points.append('{0},{1}'.format(x,y))
+    slope = slope_angle(x,y, x2,y2)
+    out_angle = slope + angle
+    out_r = out_angle* math.pi/180
+    next_x = x+ outie*math.cos(out_r)
+    next_y = y - outie*math.sin(out_r)
+    points.append('{0},{1}'.format(next_x, next_y))
+    slope_r = slope*math.pi/180
+
+    distance = math.sqrt((x2-x)**2 + (y2-y)**2)
+    flat_len = distance - 2 * outie*(math.cos(out_r))
+    next_x2 = next_x + flat_len*math.cos(slope_r)
+    next_y2 = next_y - flat_len*math.sin(slope_r)
+
+    points.append('{0},{1}'.format(next_x2, next_y2))
+    points.append('{0},{1}'.format(x2,y2))
+    line = sb.createPolyline(points=' '.join(points))
+    style = 'fill:{0};stroke-width:{1};stroke:{2};stroke-linecap:round'.format(ALPHA, width, color)
+    line.set_style(style)
+    return [line]
+
+def marker_end_def(name, color, root_elem):
+    """add root_elem as child of svg/defs/marker@id=name"""
+    pass
+
+
+def cap_def(name, children):
+    d = defs()
+    m = BaseElement('marker')
+    m.setAttribute('id', name)
+    m.setAttribute('orient', 'auto')
+    #m.setAttribute('markerUnits', 'strokeWidth')
+    d.addElement(m)
+    for c in children:
+        m.addElement(c)
+    return d
+
+def triangle(x1,y1, x2,y2, x3,y3, fill):
+    points = []
+    sb = ShapeBuilder()
+    for x, y in [(x1,y1), (x2,y2), (x3,y3), (x1, y1)]:
+        points.append('{0},{1}'.format(x,y))
+    pl = sb.createPolyline(points=' '.join(points))
+    style = 'fill:{0}'.format(fill)
+    pl.set_style(style)
+    return [pl]
+
+
+def arc_curve(x,y, x2,y2, curve_angle=45, width=10, color=RED_3,
+              cap_def=None):
+    """clockwise curve.
+    Note that you need to create cap_def"""
+    p = path(pathData='M {0},{1}'.format(x,y))
+    # M is move absolute
+    angle = slope_angle(x,y, x2,y2)
+    mid_x, mid_y = middle(x,y, x2,y2)
+    rx = ry = distance(x,y,x2,y2)
+    #p.appendCubicShorthandCurveToPath(x2,y2)
+    p.appendArcToPath(rx, ry, x2, y2, relative=False)
+    style = 'fill:{0};stroke-width:{1};stroke:{2};stroke-linecap:round'.format(ALPHA, width, color)
+    if cap_def:
+        p.set_marker_end('url(#{0})'.format(cap_def))
+        #style += ';marker-end;url(#{0})'.format(cap_def)
+    p.set_style(style)
+    return [p]
+
+
 def revision():
     c = circle(0, 0, 10)
     stroke = RED_3
@@ -95,6 +185,9 @@ def revision():
 def middle(x1, y1, x2, y2):
     return (x1+x2)/2. , (y1+y2)/2.
 
+def distance(x1, y1, x2, y2):
+    return math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
 def slope_angle(x1, y1, x2, y2):
     """
     0 is flat
@@ -102,9 +195,16 @@ def slope_angle(x1, y1, x2, y2):
     """
     rise = 1.*(y2-y1)
     run = x2-x1
-    slope = rise/run
+    slope = None
+    if run != 0:
+        slope = rise/run
+        result = math.atan(slope)*180/math.pi
+    elif y2 > y1:
+        result = 270
+    else:
+        result = 90
 
-    result = math.atan(slope)*180/math.pi
+
     print "ROTATE", result, rise, run, slope
     return result
 
@@ -151,9 +251,9 @@ def num(txt, color):
         t.set_style(style2.getStyle())
         elems.append(t)
     return elems
-    
-    
-    
+
+
+
 
 def rev_path(x1,y1, x2,y2, txt=None):
     elements = []
@@ -176,7 +276,7 @@ def rev_path(x1,y1, x2,y2, txt=None):
         per_char = 167./26
         t = text(txt, -len(txt)/2*per_char, 4)
         t.set_style(style2.getStyle())
-        
+
         #import pdb; pdb.set_trace()
         group = rotate([t], slope_angle(x1, y1, x2, y2))
         group = translate([group], x, y)
@@ -252,7 +352,7 @@ def test():
     for elem in branch_section():
         fout.addElement(elem)
     fout.save('/tmp/git.svg')
-    
+
 
 
 if __name__ == '__main__':
