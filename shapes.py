@@ -18,13 +18,93 @@ GREEN_3 = '#4e9a06'
 RED_3 = '#a40000'
 
 PUR_3 = '#5c3566'
+PUR_2 = '#75507b'
+PUR_1 = '#ad7fa8'
 
 ORANGE_3 = '#ce5c00'
 BLACK = '#000000'
-ALUM_1 = '#eeeeec'
-ALUM_6 = '#2e3436'
 
+ALUM_6 = '#2e3436'
+ALUM_5 = '#555753'
+ALUM_4 = '#888a85'
+ALUM_3 = '#babdb6'
+ALUM_2 = '#d3d7cf'
+ALUM_1 = '#eeeeec'
 HALF = '88'
+
+def local_work():
+    x = 0
+    y = 0
+    elems = []
+    repo_line = rev_path(x,y, x+600,y, color=PUR_3)
+    elems.extend([repo_line, words('repository')])
+    x+= 20
+    idx_line = rev_path(x,y, x+600,y, color=PUR_2)
+    elems.extend([idx_line, words('"index"/staged files')])
+    x+= 20
+    work_line = rev_path(x,y, x+600,y, color=PUR_1)
+    elems.extend([work_line, words('work directory')])
+    x+= 20
+    stash_line = rev_path(x,y, x+600,y, color=ALUM_2)
+    elems.extend([stash_line, words('"stash"')])
+    return elems
+
+
+def branch_section2():
+    x = 0
+    y = 0
+    elems = []
+    elems.extend(rev_path(x,y, x+25,7))
+    # down to right
+    elems.extend(rev_path(x+25, y, x+75, y+50, "fixme"))
+    # up to right
+    elems.extend(rev_path(x+75, y+50, x+125, y, ""))
+    # across
+    elems.extend(rev_path(x+25, y, x+125, y, "master"))
+
+    elems.append(Thing(revision()).move(x+25, y))
+    elems.append(Thing(revision()).move(x+75, y+50))
+    elems.append(Thing(revision()).move(x+125, y))
+
+    print "ELEMS", elems
+    elems.extend(between(x+75, 0, x+75, 50))
+    #cap_elems = triangle(-1,1, 0,3, 1,1, RED_3+HALF)
+    if INKSCAPE_HACK:
+        cap_elems = triangle(0,1, -2,0, 0,-1, RED_3)
+    else:
+        cap_elems = triangle(0,1, 2,0, 0,-1, RED_3)
+    elems.append(cap_def('RED_3END', cap_elems))
+    elems.extend(arc_curve(x+100, 0, x+100, 70, cap_def='RED_3END'))
+
+    # small numbers
+    elems.append(Thing(num('1', GREEN_3)).move(x+15, y+10))
+    elems.append(Thing(num('2', GREEN_3)).move(x+35, y+30))
+    elems.append(Thing(num('3', GREEN_3)).move(x+50, y+45))
+
+    # large numbers
+    elems.append(Thing(command('1',
+                               'git checkout -t fixme',
+                               'use -t to set up remote tracking',
+                               GREEN_3)).move(x, y+70))
+    elems.append(translate(command('2',
+                                   '',
+                                   'edit file',
+                                   GREEN_3),
+                           x, y+110))
+    elems.append(translate(command('3',
+                                   'git commit -m \'fix bug\' file.py',
+                                   '',
+                                   GREEN_3),
+                           x, y+150))
+    elems.append(translate(command('4',
+                                   'git diff fixme master -- file.py',
+                                   '',
+                                   GREEN_3),
+                           x, y+190))
+
+    return elems
+
+
 
 def branch_section():
     x = 0
@@ -253,31 +333,31 @@ def num(txt, color):
     return elems
 
 
+def words(txt, family='arial', weight='bold', color=ALUM_1):
+    style2 = StyleBuilder()
+    #style2.setFontFamily('envy code r')
+    style2.setFontFamily('arial')
+    style2.setFontWeight('bold')
+    style2.setFilling(ALUM_1)
+    t = text(txt, 0, 0)
+    t.set_style(style2.getStyle())
+    return t
 
-
-def rev_path(x1,y1, x2,y2, txt=None):
+def rev_path(x1,y1, x2,y2, txt=None, color=ALUM_6, width=16):
     elements = []
     # x1, y1 = r1.get_cx(), r1.get_cy()
     # x2, y2 = r2.get_cx(), r2.get_cy(),
     l = line(x1, y1,
              x2, y2)
     elements.append(l)
-    style = 'stroke-width:{0};stroke:{1}'.format(16, ALUM_6)
+    style = 'stroke-width:{0};stroke:{1}'.format(width, color)
     l.set_style(style)
     if txt:
         x, y = middle(x1, y1, x2, y2)
-        style2 = StyleBuilder()
-        #style2.setFontFamily('envy code r')
-        style2.setFontFamily('arial')
-        style2.setFontWeight('bold')
-        style2.setFilling(ALUM_1)
         # shift text left and up by a bit
         # whole alphabet in this font is 167 px width
         per_char = 167./26
-        t = text(txt, -len(txt)/2*per_char, 4)
-        t.set_style(style2.getStyle())
-
-        #import pdb; pdb.set_trace()
+        t = translate([words(txt)], -len(txt)/2*per_char, 4)
         group = rotate([t], slope_angle(x1, y1, x2, y2))
         group = translate([group], x, y)
         elements.append(group)
@@ -349,10 +429,56 @@ def test2():
 def test():
     fout = svg()
     fout.addElement(translate(diff(), 120, 60))
-    for elem in branch_section():
+    for elem in branch_section2():
         fout.addElement(elem)
+    #fout.addElement(translate(local_work(), 200, 200))
     fout.save('/tmp/git.svg')
 
+
+class Thing(object):
+    def __init__(self, items):
+        if isinstance(items, list):
+            self.items = items
+        else:
+            self.items = []
+        self.main_item = self.items[0]
+
+    def getXML(self):
+        return self.items[0].getXML()
+
+    def __iter__(self):
+        return iter(self.items)
+
+    def move(self, x, y):
+        group = g()
+        for item in self:
+            group.addElement(item)
+        tb = TransformBuilder()
+        tb.setTranslation('{0},{1}'.format(x,y))
+        group.set_transform(tb.getTransform())
+        self.items = [group]
+        return self
+
+    def scale(self, amount):
+        """1 = 100%"""
+        group = g()
+        for e in self:
+            group.addElement(e)
+        tb = TransformBuilder()
+        tb.setScaling(amount, amount)
+        group.set_transform(tb.getTransform())
+        self.items = [group]
+        return self
+
+    def rotate(self, angle):
+        group = g()
+        for e in self:
+            group.addElement(e)
+        tb = TransformBuilder()
+        tb.setRotation(angle)
+        group.set_transform(tb.getTransform())
+        self.items = [group]
+        return self
 
 
 if __name__ == '__main__':
